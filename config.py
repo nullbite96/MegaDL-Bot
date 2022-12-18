@@ -5,12 +5,12 @@
 import os
 
 class Config:
-    API_ID = int(os.environ.get("API_ID", 123))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", 11197200))
+    API_HASH = os.environ.get("API_HASH", "e569a3f232f49667be19490e6f69b8c9")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5939766889:AAGmes15WMLw8fmB7N12wnZk-dTbbVQPzVg")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1316963576))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 5136746907))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 
